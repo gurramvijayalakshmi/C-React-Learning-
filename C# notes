@@ -6,7 +6,7 @@ So in this section, you learned the basics of C#.
 
 C# is a programming language, while .NET is a framework. It consists of a run-time environment (CLR) and a class library that we use for building applications.
 
-##CLR
+## CLR
 
 When you compile an application, C# compiler compiles your code to IL (Intermediate Language) code. IL code is platform agnostics, which makes it possible to a take a C# program on a different computer with different hardware architecture and operating system and run it. For this to happen, we need CLR. When you run a C# application, CLR compiles the IL code into the native machine code for the computer on which it is running. This process is called Just-in-time Compilation (JIT).
 
@@ -19,3 +19,33 @@ A namespace is a container for related classes. So as your application grows in 
 As the number of classes and namespaces even grow further, you may want to physically separate related namespaces into separate assemblies. An assembly is a file (DLL or EXE) that contains one or more namespaces and classes. An EXE file represents a program that can be executed. A DLL is a file that includes code that can be re-used across different programs.
 
 In the next section, you'll learn about basics of the C# language, including variables, constants, type conversion and operators.
+
+## Learning Paths 
+This course is part of a series of courses that help you master C#. Once you're proficient in C#, then you can focus on specific areas such as web, mobile and game development depending on what your goals and interests are. 
+
+Here is the learning path that I recommend to you to get the most out of my courses: 
+
+## Essentials
+These courses are absolutely essential and you should take them in the following order. Do not skip any of them! 
+
+C# Basics for Beginners 
+C# Intermediate: Classes, Interfaces and Object-oriented Programming (this course)
+C# Advanced
+
+##Mobile Development 
+Once you master C#, if you'd like to learn how to build mobile apps with C#, you can take the following course: 
+
+Xamarin Forms 
+
+## Web (Back-end) Development 
+Alternatively, if you'd like to focus on web application development and become a back-end developer, take the following courses:
+
+Entity Framework 6
+ASP.NET MVC 5
+
+## Optional but Recommended
+If you'd like to become a serious developer, I highly encourage you to take the following courses too. These courses help you become a better developer and write better code and in less time: 
+
+## Double Your Coding Speed
+Clean Code: The Art of Writing Beautiful C# Code
+Unit Testing C# Code 
